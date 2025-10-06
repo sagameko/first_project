@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My first three.js app</title>
+
+    <style>
+        body {
+            margin: 0;
+        }
+        
+        #info {
+            position: fixed;
+            /* stays pinned to the viewport */
+            top: 10px;
+            left: 0;
+            right: 0;
+            text-align: center;
+            z-index: 1000;
+            /* above the canvas */
+            color: white;
+            /* <-- make it visible */
+            font: 16px/1.4 system-ui, sans-serif;
+            pointer-events: none;
+            /* clicks go through to the canvas (optional) */
+        }
+    </style>
+
+</head>
+
+<body>
+    <div id="info">Following straight to the tutorial on threeJS site!!!</div>
+    <script type="module" src="./main.js"></script>
+</body>
+
+</html>
