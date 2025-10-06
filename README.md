@@ -24,16 +24,19 @@ This was my very first attempt at building something with Three.js. It’s a sim
    cd first_project/day-01-spinning-cube
 Install dependencies:
 
-bash
-npm install
-Start a local development server:
+   ```bash
+   npm install
+   Start a local development server:
+   ```
 
-bash
-npx vite
+   ```bash
+   npx vite
+   ```
 or
 
-bash
-npm run dev
+   ```bash
+   npm run dev
+   ```
 Open your browser and go to the local address shown in the terminal (usually http://localhost:5173).
 
 About This Repository
