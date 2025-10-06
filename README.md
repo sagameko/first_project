@@ -25,17 +25,14 @@ This was my very first attempt at building something with Three.js. It’s a sim
 Install dependencies:
 
 bash
-Copy code
 npm install
 Start a local development server:
 
 bash
-Copy code
 npx vite
 or
 
 bash
-Copy code
 npm run dev
 Open your browser and go to the local address shown in the terminal (usually http://localhost:5173).
 
@@ -53,6 +50,3 @@ Build interactive 3D scenes
 Explore camera controls and user input
 
 This is just the beginning. I’m excited to keep pushing myself and see how much I can grow by building something new every day.
-
-sql
-Copy code
